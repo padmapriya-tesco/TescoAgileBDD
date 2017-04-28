@@ -21,12 +21,12 @@ public class BrowserSelector extends BasePage {
             driver = new FirefoxDriver();
 
         }else if(browser.equalsIgnoreCase("chrome")){
-            System.setProperty("webdriver.chrome.driver","C:\\Users\\Dell\\IdeaProjects\\WordPressDemo\\src\\test\\Resources\\BrowserDrivers\\chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver","C:\\Users\\Dell\\IdeaProjects\\Tesco\\src\\test\\Resources\\BrowserDrivers\\chromedriver.exe");
             DesiredCapabilities chromeCapabilities = DesiredCapabilities.chrome();
             driver = new ChromeDriver();
 
         }else if(browser.equalsIgnoreCase("ie")){
-            System.setProperty("webdriver.ie.driver","C:\\Users\\Dell\\IdeaProjects\\WordPressDemo\\src\\test\\Resources\\BrowserDrivers\\IEDriverServer.exe");
+            System.setProperty("webdriver.ie.driver","C:\\Users\\Dell\\IdeaProjects\\Tesco\\src\\test\\Resources\\BrowserDrivers\\IEDriverServer.exe");
             DesiredCapabilities ieCapabilities = DesiredCapabilities.internetExplorer();
             driver = new InternetExplorerDriver();
 

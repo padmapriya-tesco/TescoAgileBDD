@@ -15,7 +15,7 @@ public class LoadProp extends BasePage{
     public String getProperty(String key){
         prop = new Properties();
         try {
-            input = new FileInputStream("C:\\Users\\Dell\\IdeaProjects\\WordPressDemo\\src\\test\\Resources\\config.properties");
+            input = new FileInputStream("C:\\Users\\Dell\\IdeaProjects\\Tesco\\src\\test\\Resources\\config.properties");
             prop.load(input);
             input.close();
         }
