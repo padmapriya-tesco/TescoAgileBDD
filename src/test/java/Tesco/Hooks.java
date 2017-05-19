@@ -14,6 +14,7 @@ public class Hooks extends BasePage {
 
     @Before
     public void openBrowser(){
+        // test comment
         browserSelector.selectBrowser();
         driver.manage().deleteAllCookies();
         driver.manage().window().maximize();
